@@ -12,6 +12,12 @@
 		8989E9E421F9A6230027DF49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8989E9E221F9A6230027DF49 /* Main.storyboard */; };
 		8989E9E621F9A6240027DF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8989E9E521F9A6240027DF49 /* Assets.xcassets */; };
 		8989E9E921F9A6240027DF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8989E9E721F9A6240027DF49 /* LaunchScreen.storyboard */; };
+		8989E9F121F9A73B0027DF49 /* BMI-Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 8989E9F021F9A73B0027DF49 /* BMI-Calculator.png */; };
+		898AE25721F9B36B00617311 /* Nor.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE25221F9B36A00617311 /* Nor.png */; };
+		898AE25821F9B36B00617311 /* Over.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE25321F9B36A00617311 /* Over.png */; };
+		898AE25921F9B36B00617311 /* Ob.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE25421F9B36B00617311 /* Ob.png */; };
+		898AE25A21F9B36B00617311 /* Under.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE25521F9B36B00617311 /* Under.png */; };
+		898AE25B21F9B36B00617311 /* Ex.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AE25621F9B36B00617311 /* Ex.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		8989E9E521F9A6240027DF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8989E9E821F9A6240027DF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8989E9EA21F9A6240027DF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8989E9F021F9A73B0027DF49 /* BMI-Calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BMI-Calculator.png"; sourceTree = "<group>"; };
+		898AE25221F9B36A00617311 /* Nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nor.png; sourceTree = "<group>"; };
+		898AE25321F9B36A00617311 /* Over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Over.png; sourceTree = "<group>"; };
+		898AE25421F9B36B00617311 /* Ob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ob.png; sourceTree = "<group>"; };
+		898AE25521F9B36B00617311 /* Under.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Under.png; sourceTree = "<group>"; };
+		898AE25621F9B36B00617311 /* Ex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ex.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +66,14 @@
 		8989E9DD21F9A6230027DF49 /* BMICalculator */ = {
 			isa = PBXGroup;
 			children = (
+				8989E9F021F9A73B0027DF49 /* BMI-Calculator.png */,
 				8989E9DE21F9A6230027DF49 /* AppDelegate.swift */,
 				8989E9E021F9A6230027DF49 /* ViewController.swift */,
+				898AE25521F9B36B00617311 /* Under.png */,
+				898AE25221F9B36A00617311 /* Nor.png */,
+				898AE25321F9B36A00617311 /* Over.png */,
+				898AE25421F9B36B00617311 /* Ob.png */,
+				898AE25621F9B36B00617311 /* Ex.png */,
 				8989E9E221F9A6230027DF49 /* Main.storyboard */,
 				8989E9E521F9A6240027DF49 /* Assets.xcassets */,
 				8989E9E721F9A6240027DF49 /* LaunchScreen.storyboard */,
@@ -122,9 +140,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898AE25921F9B36B00617311 /* Ob.png in Resources */,
+				8989E9F121F9A73B0027DF49 /* BMI-Calculator.png in Resources */,
+				898AE25A21F9B36B00617311 /* Under.png in Resources */,
+				898AE25821F9B36B00617311 /* Over.png in Resources */,
+				898AE25721F9B36B00617311 /* Nor.png in Resources */,
 				8989E9E921F9A6240027DF49 /* LaunchScreen.storyboard in Resources */,
 				8989E9E621F9A6240027DF49 /* Assets.xcassets in Resources */,
 				8989E9E421F9A6230027DF49 /* Main.storyboard in Resources */,
+				898AE25B21F9B36B00617311 /* Ex.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RT44NCJNJ3;
+				DEVELOPMENT_TEAM = 7BLZL9SX98;
 				INFOPLIST_FILE = BMICalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RT44NCJNJ3;
+				DEVELOPMENT_TEAM = 7BLZL9SX98;
 				INFOPLIST_FILE = BMICalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
